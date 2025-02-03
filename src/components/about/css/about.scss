@@ -1,0 +1,49 @@
+.about {
+  background-color: #000; /* Fond noir */
+  color: #fff;
+  padding: 3rem 2rem;
+  font-family: 'Quicksand', sans-serif; /* Assure-toi de l’avoir importée */
+  text-align: center; /* Centre le texte */
+  max-width: 800px;   /* Largeur max, si tu veux centrer dans la page */
+  margin: 0 auto;     /* Centre la section horizontalement */
+}
+
+.about__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.about__intro,
+.about__vision,
+.about__conclusion {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.about__stack-title,
+.about__why-title {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Listes pour le stack et le pourquoi */
+.about__stack,
+.about__why {
+  list-style: none; /* Enlève les puces par défaut */
+  padding: 0;
+  margin: 1rem 0 2rem 0;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: center; /* Aligne les puces à gauche pour plus de lisibilité */
+  display: inline-block; /* Trick pour garder centré globalement */
+}
+
+/* Pour chaque item de liste (optionnel, si tu veux un style custom) */
+.about__stack li,
+.about__why li {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,72 @@
+/* Import facultatif si vous ne l'avez pas déjà ajouté dans index.html
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000; /* Fond noir */
+  padding: 1rem 2rem;
+  font-family: 'Quicksand', sans-serif; /* Application de la police */
+}
+
+/* Logo (MS) */
+.header__logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: gold; /* Couleur dorée */
+}
+
+/* Liens de navigation */
+.header__nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header__nav a {
+  position: relative; /* Nécessaire pour le pseudo-élément */
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Pseudo-élément pour l'underline */
+.header__nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;       /* Décalage vertical sous le texte */
+  left: 0;
+  width: 0;
+  height: 2px;        /* Épaisseur du soulignement */
+  background-color: #DFA10F;
+  transition: width 0.3s ease-in-out; /* Durée et type d’animation */
+}
+
+/* Survol du lien */
+.header__nav a:hover {
+  color: #DFA10F;
+}
+
+/* Animation du pseudo-élément */
+.header__nav a:hover::after {
+  width: 100%;
+}
+
+/* Bouton "Contact Me" */
+.header__contact-btn {
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.header__contact-btn:hover {
+  background-color: #DFA10F;
+  color: #fff;
+}
