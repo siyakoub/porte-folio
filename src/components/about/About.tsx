@@ -8,7 +8,7 @@ const About: React.FC = () => {
 
             <p className="about__intro">
                 Bienvenue ! Je suis <strong>Mourad</strong>, un Développeur Full Stack
-                passionné par le code, l’innovation et l’optimisation. Mon quotidien ?
+                passionné par le code, l’innovation et l’optimisation. Mon quotidien ?
                 Transformer des idées en expériences numériques fluides, performantes et intuitives.
             </p>
 
@@ -26,7 +26,7 @@ const About: React.FC = () => {
                 <li>☁️ Cloud & DevOps → Docker, CI/CD, Terraform, AWS, Azure, Google Cloud Platform</li>
             </ul>
 
-            <h3 className="about__why-title">📌 Pourquoi moi ?</h3>
+            <h3 className="about__why-title">📌 Pourquoi moi ?</h3>
             <ul className="about__why">
                 <li>✅ Expérience polyvalente : du web au mobile, du développement à l’infrastructure</li>
                 <li>✅ Orienté performance : j’optimise chaque détail pour une expérience fluide</li>

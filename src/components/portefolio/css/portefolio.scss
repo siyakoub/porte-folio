@@ -1,0 +1,93 @@
+.portfolio {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+
+  &__intro {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  &__intro--sub {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  &__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  /* Chaque bloc de projet cliquable */
+  &__item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer; /* Indique que l'élément est cliquable */
+
+    /* Halo doré initial */
+    box-shadow:
+            0 0 20px rgba(223, 161, 15, 1),
+            0 0 60px rgba(223, 161, 15, 0.8);
+
+    /* Réserve un ratio fixe 16:9 pour l'élément */
+    aspect-ratio: 16 / 9;
+
+    /* Transition pour l'animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    /* L'image occupe tout l'espace de l'item */
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  /* Effet au survol */
+  &__item:hover {
+    transform: scale(1.03); /* Légère augmentation de taille */
+    box-shadow:
+            0 0 30px rgba(223, 161, 15, 1),
+            0 0 80px rgba(223, 161, 15, 0.9);
+  }
+
+  /* Animation sur le clic */
+  &__item:active {
+    animation: clickPulse 0.3s ease forwards;
+  }
+}
+
+/* Définition de l'animation clickPulse */
+@keyframes clickPulse {
+  0% {
+    transform: scale(1.03);
+    box-shadow:
+            0 0 30px rgba(223, 161, 15, 1),
+            0 0 80px rgba(223, 161, 15, 0.9);
+  }
+  50% {
+    transform: scale(0.95);
+    box-shadow:
+            0 0 20px rgba(223, 161, 15, 1),
+            0 0 60px rgba(223, 161, 15, 0.8);
+  }
+  100% {
+    transform: scale(1.03);
+    box-shadow:
+            0 0 30px rgba(223, 161, 15, 1),
+            0 0 80px rgba(223, 161, 15, 0.9);
+  }
+}
