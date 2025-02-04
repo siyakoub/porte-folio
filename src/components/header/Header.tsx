@@ -17,7 +17,6 @@ const Header: React.FC = () => {
                     <a href="#about">About</a>
                     <a href="#service">Service</a>
                     <a href="#portfolio">PorteFolio</a>
-                    <a href="#clients">Clients</a>
                 </nav>
 
                 {/* Bouton Contact */}

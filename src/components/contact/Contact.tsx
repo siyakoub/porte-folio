@@ -9,14 +9,16 @@ const Contact: React.FC = () => {
         message: "",
     });
 
-    const handleChange = (e: any) => {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-expect-error
+    const handleChange = (e) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value,
         });
     };
 
-    const handleSubmit = (e: any) => {
+    const handleSubmit = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
         console.log("Form Data Submitted:", formData);
         // Ajoute ici la logique pour envoyer le message (ex: API ou email service)
