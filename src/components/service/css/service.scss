@@ -1,0 +1,76 @@
+.services {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 2rem;
+  font-family: 'Quicksand', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 600;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+/* Bloc Service */
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+
+  &__image-wrapper {
+    flex: 0 0 auto;
+    width: 250px;
+    height: auto;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+
+    /* Halo doré plus intense */
+    box-shadow:
+            0 0 20px rgba(223, 161, 15, 1),
+            0 0 60px rgba(223, 161, 15, 1);
+
+    /* Transition pour l’effet “surélevé” au survol */
+    transition:
+            box-shadow 0.3s ease,
+            transform 0.3s ease;
+  }
+
+  /* Effet au survol : halo plus large, petite translation ou zoom */
+  &__image:hover {
+    transform: translateY(-10px);  /* Décalage léger vers le haut */
+    box-shadow:
+            0 0 20px rgba(223, 161, 15, 1),
+            0 0 60px rgba(223, 161, 15, 1);
+  }
+
+  &__content {
+    flex: 1;
+    min-width: 280px;
+  }
+
+  &__name {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  &__desc {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

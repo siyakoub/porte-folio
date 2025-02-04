@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/header.scss';
-import Logo from '../../assets/img/logo/logoMS.png';
+import Logo from '../../assets/img/logo/logoMS2.png';
 
 const Header: React.FC = () => {
     return (
@@ -8,7 +8,7 @@ const Header: React.FC = () => {
             <header className="header">
                 {/* Logo */}
                 <div className="header__logo">
-                    <img src={Logo} alt="logo" height={75} />
+                    <img src={Logo} alt="logo" height={50} />
                 </div>
 
                 {/* Liens de navigation */}
