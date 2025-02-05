@@ -1,0 +1,55 @@
+{
+  "Home": "Home",
+  "about": "About",
+  "services": "Services",
+  "portefolio": "PorteFolio",
+  "contactme": "Contact me",
+  "about_title": "About Me",
+  "about_intro": "Welcome! I am <strong>Mourad</strong>, a Full Stack Developer passionate about coding, innovation, and optimization. My daily mission? Transforming ideas into smooth, high-performance, and intuitive digital experiences.",
+  "home_hello": "Hello,",
+  "home_title": "My name is <span class='hero__highlight'>Mourad</span>",
+  "home_subtitle": "Full-Stack Developer",
+  "home_desc": "🎯 Coder, creator, innovator – I transform ideas into smooth, fast, and scalable applications, from front-end to back-end.",
+
+  "about_vision": "💡 <strong>My vision?</strong> Good development is a balance between technology, design, and performance. Every line of code I write is designed to be efficient, scalable, and secure.",
+
+  "about_stack_title": "🎯 My Tech Stack",
+  "about_stack": {
+    "frontend": "💻 Front-end → React, Angular, Flutter",
+    "backend": "⚙️ Back-end → Python (Flask, Django), Java (Spring Boot), Node.js, PHP",
+    "database": "💾 Databases → PostgreSQL, MySQL, Oracle, MongoDB",
+    "cloud": "☁️ Cloud & DevOps → Docker, CI/CD, Terraform, AWS, Azure, Google Cloud Platform"
+  },
+
+  "about_why_title": "📌 Why Me?",
+  "about_why": {
+    "experience": "✅ Versatile experience: from web to mobile, from development to infrastructure",
+    "performance": "✅ Performance-oriented: I optimize every detail for a smooth experience",
+    "learning": "✅ Always up-to-date: I am passionate about new technologies and continuous learning"
+  },
+
+  "about_conclusion": "Ready to collaborate on an ambitious project? <br /> 👉 Let’s build something great together!",
+  "services_title": "Services",
+
+  "service_uiux_title": "🎨 UI/UX Design",
+  "service_uiux_desc": "I design intuitive and aesthetic interfaces by placing the user at the heart of the experience. My goal: to create ergonomic, engaging, and accessible designs, combining creativity and performance.",
+
+  "service_web_title": "🖥 Web Design",
+  "service_web_desc": "From showcase websites to interactive platforms, I develop modern, fast, and responsive websites. A refined design, smooth navigation, and optimized performance are at the core of my approach.",
+
+  "service_app_title": "📱 App Design",
+  "service_app_desc": "I create smooth and high-performance mobile and web applications, harmonizing design and functionality. User experience, interactivity, and responsiveness are the pillars of my designs.",
+  "portfolio_title": "Portfolio",
+  "portfolio_intro": "Discover my projects where design, performance, and innovation meet. Each project is designed to provide a seamless user experience, optimized code, and a modern interface.",
+  "portfolio_intro_sub": "📌 Explore my projects and get inspired!",
+  "contact_title": "📩 Contact Me",
+  "contact_intro": "Have an idea, a project, or just want to chat? Let's talk! 🚀",
+  "contact_description": "Whether it's UI/UX Design, Web Design, or application development, I am available to collaborate and create innovative solutions.",
+  "contact_cta": "📩 Send me a message and let's bring your ideas to life!",
+
+  "contact_name": "Full Name",
+  "contact_email": "Email",
+  "contact_phone": "Phone Number",
+  "contact_message": "Comment",
+  "contact_submit": "Send"
+}

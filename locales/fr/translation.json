@@ -1,0 +1,55 @@
+{
+  "Home": "Accueil",
+  "about": "À propos",
+  "services": "Services",
+  "portefolio": "Portfolio",
+  "contactme": "Contactez-moi",
+  "about_title": "À propos de moi",
+  "about_intro": "Bienvenue ! Je suis <strong>Mourad</strong>, un Développeur Full Stack passionné par le code, l’innovation et l’optimisation. Mon quotidien ? Transformer des idées en expériences numériques fluides, performantes et intuitives.",
+  "home_hello": "Hello,",
+  "home_title": "Je m'appelle <span class='hero__highlight'>Mourad</span>",
+  "home_subtitle": "Développeur Full-Stack",
+  "home_desc": "🎯 Codeur, créateur, innovateur – Je transforme des idées en applications fluides, rapides et scalables, du front-end au back-end.",
+
+  "about_vision": "💡 <strong>Ma vision ?</strong> Un bon développement, c’est un équilibre entre technologie, design et performance. Chaque ligne de code que j’écris est pensée pour être efficace, scalable et sécurisée.",
+
+  "about_stack_title": "🎯 Mon stack technologique",
+  "about_stack": {
+    "frontend": "💻 Front-end → React, Angular, Flutter",
+    "backend": "⚙️ Back-end → Python (Flask, Django), Java (Spring Boot), Node.js, PHP",
+    "database": "💾 Bases de données → PostgreSQL, MySQL, Oracle, MongoDB",
+    "cloud": "☁️ Cloud & DevOps → Docker, CI/CD, Terraform, AWS, Azure, Google Cloud Platform"
+  },
+
+  "about_why_title": "📌 Pourquoi moi ?",
+  "about_why": {
+    "experience": "✅ Expérience polyvalente : du web au mobile, du développement à l’infrastructure",
+    "performance": "✅ Orienté performance : j’optimise chaque détail pour une expérience fluide",
+    "learning": "✅ Toujours à jour : je suis passionné par les nouvelles technologies et l’apprentissage continu"
+  },
+
+  "about_conclusion": "Prêt à collaborer sur un projet ambitieux ? <br /> 👉 Construisons quelque chose de grand ensemble !",
+  "services_title": "Services",
+
+  "service_uiux_title": "🎨 UI/UX Design",
+  "service_uiux_desc": "Je conçois des interfaces intuitives et esthétiques en mettant l’utilisateur au cœur de l’expérience. Mon objectif : créer des designs ergonomiques, engageants et accessibles, alliant créativité et performance.",
+
+  "service_web_title": "🖥 Web Design",
+  "service_web_desc": "Du site vitrine à la plateforme interactive, je développe des sites modernes, rapides et responsifs. Un design soigné, une navigation fluide et une performance optimisée sont au cœur de mon approche.",
+
+  "service_app_title": "📱 App Design",
+  "service_app_desc": "Je crée des applications mobiles et web fluides et performantes, en harmonisant design et fonctionnalité. Expérience utilisateur, interactivité et réactivité sont les piliers de mes conceptions.",
+  "portfolio_title": "PorteFolio",
+  "portfolio_intro": "Découvrez mes réalisations où design, performance et innovation se rencontrent. Chaque projet est pensé pour offrir une expérience utilisateur fluide, un code optimisé et une interface moderne.",
+  "portfolio_intro_sub": "📌 Explorez mes projets et laissez-vous inspirer!",
+  "contact_title": "📩 Contactez-moi",
+  "contact_intro": "Une idée, un projet ou simplement envie d’échanger ? Discutons ensemble ! 🚀",
+  "contact_description": "Que ce soit pour du UI/UX Design, du Web Design ou du développement d’applications, je suis à votre disposition pour collaborer et créer des solutions innovantes.",
+  "contact_cta": "📩 Envoyez-moi un message et donnons vie à vos idées !",
+
+  "contact_name": "Nom Complet",
+  "contact_email": "E-mail",
+  "contact_phone": "Numéro de téléphone",
+  "contact_message": "Commentaire",
+  "contact_submit": "Envoyer"
+}
